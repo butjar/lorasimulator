@@ -1,4 +1,6 @@
 import matlab.unittest.TestSuite;
-suite = TestSuite.fromPackage('test.lora');
+suite = [TestSuite.fromPackage('test.lora'), ...
+         TestSuite.fromPackage('test.lora.end_device'), ...
+         TestSuite.fromPackage('test.lora.end_device.PacketGenerator')];
 
 result = run(suite);
