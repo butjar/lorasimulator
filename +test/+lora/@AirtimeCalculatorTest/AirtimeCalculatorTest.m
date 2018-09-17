@@ -38,9 +38,7 @@ classdef (SharedTestFixtures={matlab.unittest.fixtures.PathFixture(...
                expected = 28;
                testCase.verifyEqual(actual, expected);
           end
-     end
 
-     methods (Test)
           function testPreambleDurationCalculation(testCase)
                ac = testCase.Calculator;
                modem = testCase.Modem;
@@ -50,9 +48,7 @@ classdef (SharedTestFixtures={matlab.unittest.fixtures.PathFixture(...
                expected = seconds(0.050176);
                testCase.verifyEqual(actual, expected);
           end
-     end
 
-     methods (Test)
           function testPayloadDurationCalculation(testCase)
                ac = testCase.Calculator;
                modem = testCase.Modem;
@@ -62,9 +58,7 @@ classdef (SharedTestFixtures={matlab.unittest.fixtures.PathFixture(...
                expected = seconds(0.114688);
                testCase.verifyEqual(actual, expected);
           end
-     end
 
-     methods (Test)
           function testTimeOnAirCalculation(testCase)
                ac = testCase.Calculator;
                modem = testCase.Modem;
