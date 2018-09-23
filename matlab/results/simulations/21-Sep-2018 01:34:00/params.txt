@@ -1,0 +1,14 @@
+bw = 125000.0;
+sf = 7; 
+cr = 5;
+de = 0;
+lambda = 10000;
+packetDistLower = 14;
+packetDistUpper = 51;
+dc = 0.01;
+nPreamble = 6;
+h = 1;
+numDevices = 160;
+devAddr = 1;
+
+Elapsed time is 250.465786 seconds.

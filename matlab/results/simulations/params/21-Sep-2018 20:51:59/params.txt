@@ -1,0 +1,14 @@
+duration = seconds(3 * 3600);
+startDate = datetime('now');
+bw = 125000.0;
+sf = 7; 
+cr = 5;
+de = 0;
+lambda = 7138;
+packetDistLower = 1;
+packetDistUpper = 51;
+dc = 0.01;
+nPreamble = 6;
+h = 1;
+numDevices = 160;
+devAddr = 1;
